@@ -1,0 +1,11 @@
+.idea
+node_modules
+dist
+.bin
+README.md
+package-lock.json
+stats.json
+.gitignore && echo "node_modules /" >> .gitignore && git rm -r --cached node_modules;
+# Project exclude paths
+/src/index.d.ts
+/src/index.js
